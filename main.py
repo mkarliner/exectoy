@@ -30,7 +30,7 @@ colours = ["red", "blue", "green"]
 
 #Display
 i2c = I2C(Pin(5), Pin(4))
-display = ssd1306.SSD1306_I2C(64, 32, i2c)
+display = ssd1306.SSD1306_I2C(128, 64, i2c)
 # display.fill(True)
 # for y in range(48):
 #     for x in range(48):
