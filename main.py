@@ -144,7 +144,7 @@ def mqtt_main(server="169.55.61.183"):
                 active_led+=1
                 if(active_led==12):
                     active_led = 0
-            //pushed, enc_value = check_encoder()
+            pushed, enc_value = check_encoder()
             pushed = False
             if(pushed == True):
                 print("ENC: ", pushed, enc_value)
