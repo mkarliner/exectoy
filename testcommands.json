@@ -1,0 +1,23 @@
+
+
+[
+	"Weather",
+	"Particulates",
+	"Security",
+	"Reset"
+]
+
+
+
+[
+	{
+		"str": "foo", 
+		"x": 1,
+		"y": 20
+	},
+	{
+		"str": "bar",
+		"x": 1,
+		"y": 40
+	}
+]
